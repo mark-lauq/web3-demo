@@ -2,14 +2,24 @@
   "name": "web3-demo",
   "version": "0.1.0",
   "description": "Web3 demo",
-  "keywords": ["web3"],
+  "keywords": [
+    "web3"
+  ],
   "author": {
     "name": "Mark",
     "email": "mark.lauq@gmail.com"
+  },
+  "scripts": {
+    "querying-the-blockchain": "npx tsx ./src/querying-the-blockchain",
+    "setting-up-a-wallet": "npx tsx ./src/setting-up-a-wallet",
+    "interact-with-smart-contracts": "npx tsx ./src/interact-with-smart-contracts"
   },
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
   }
 }

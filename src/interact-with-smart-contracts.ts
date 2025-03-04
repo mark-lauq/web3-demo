@@ -1,4 +1,4 @@
-import { web3 } from "./initialize-web3-with-a-provider.mjs";
+import { web3 } from "./initialize-web3-with-a-provider.mts";
 
 console.group("Interact with Smart Contracts");
 

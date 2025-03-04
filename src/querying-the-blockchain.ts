@@ -1,4 +1,4 @@
-import { web3, WALLET_ADDRESS } from "./initialize-web3-with-a-provider.mjs";
+import { web3, WALLET_ADDRESS } from './initialize-web3-with-a-provider.mts';
 
 console.group("Querying the Blockchain");
 
